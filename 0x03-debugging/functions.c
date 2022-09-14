@@ -2,8 +2,13 @@
 #include <time.h>
 #include <stdio.h>
 
-void positive_or_negative(int i){
-int n;
+/* to test positive or negative integer
+ * void positive_or_negative(int i)
+ * return 0
+*/
+void positive_or_negative(int i)
+{
+	int n;
 
 	srand(time(0));
 	n = i;
@@ -21,14 +26,14 @@ int n;
 * main - tests function that prints if integer is positive or negative
 * Return: 0
 */
-
 int main(void)
 {
-        int i;
+	int i;
 
-        i = 0;
-        positive_or_negative(i);
+	i = 0;
+	positive_or_negative(i);
 
-        return (0);
+	return (0);
 }
 
+/** end of main test*/
