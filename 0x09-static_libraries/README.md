@@ -1,1 +1,1 @@
-static libraries
+Static libraries project
